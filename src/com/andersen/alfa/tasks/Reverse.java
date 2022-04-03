@@ -22,6 +22,6 @@ public class Reverse {
         System.out.println("Write the line:");
         line1 = s.nextLine();
 
-        System.out.println(reverse(line1));
+        System.out.println("Reversed line is\n" + reverse(line1));
     }
 }

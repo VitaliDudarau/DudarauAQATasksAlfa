@@ -6,6 +6,7 @@ public class DeleteSymbols {
 
     @SuppressWarnings("resources")
     public static String delete(String line1, String deleteSymbol) {
+
         char[] array = line1.toCharArray();
         char[] deleteChar = deleteSymbol.toCharArray();
 
@@ -19,6 +20,7 @@ public class DeleteSymbols {
     }
 
     public static void main(String[] args) {
+
         String line1;
         String deleteSymbol;
 

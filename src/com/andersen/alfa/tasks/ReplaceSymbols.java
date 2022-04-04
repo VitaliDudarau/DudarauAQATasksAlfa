@@ -17,7 +17,6 @@ public class ReplaceSymbols {
             } else {
                 line2 += array[i];
             }
-
         }
         return line2;
     }

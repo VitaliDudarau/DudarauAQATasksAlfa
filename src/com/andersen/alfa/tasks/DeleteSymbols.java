@@ -3,6 +3,7 @@ package com.andersen.alfa.tasks;
 import java.util.Scanner;
 
 public class DeleteSymbols {
+
     @SuppressWarnings("resources")
     public static String delete(String line1, String deleteSymbol) {
         char[] array = line1.toCharArray();

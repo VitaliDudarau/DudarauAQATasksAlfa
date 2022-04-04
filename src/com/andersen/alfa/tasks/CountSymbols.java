@@ -6,6 +6,7 @@ public class CountSymbols {
 
     @SuppressWarnings("resources")
     public static int count(String line, String countedSymbol) {
+
         String newline = line.toLowerCase();
         String newCountedSymbol = countedSymbol.toLowerCase();
         char[] array = newline.toCharArray();
@@ -21,6 +22,7 @@ public class CountSymbols {
     }
 
     public static void main(String[] args) {
+
         String line;
         String countedSymbol;
 

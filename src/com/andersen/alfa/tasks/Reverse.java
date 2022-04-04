@@ -7,8 +7,10 @@ public class Reverse {
 
     @SuppressWarnings("resources")
     public static String reverse(String line1) {
+
         char[] array = line1.toCharArray();
         String line2 = "";
+
         for (int i = array.length-1; i >= 0; i--) {
             line2 += array[i];
         }
@@ -16,6 +18,7 @@ public class Reverse {
     }
 
     public static void main(String[] args) {
+
         String line1;
 
         Scanner s =  new Scanner(System.in);

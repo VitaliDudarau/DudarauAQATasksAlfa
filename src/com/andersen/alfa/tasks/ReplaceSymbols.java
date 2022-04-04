@@ -1,3 +1,4 @@
+
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;
@@ -6,11 +7,12 @@ public class ReplaceSymbols {
 
     @SuppressWarnings("resources")
     public static String replace(String line1, String oldSymbol, String newSymbol) {
+
         char[] array = line1.toCharArray();
         char[] oldChar = oldSymbol.toCharArray();
         char[] newChar = newSymbol.toCharArray();
-
         String line2 = "";
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] == oldChar[0]) {
                 line2 += newChar[0];
@@ -22,6 +24,7 @@ public class ReplaceSymbols {
     }
 
     public static void main(String[] args) {
+
         String line1;
         String oldSymbol;
         String newSymbol;

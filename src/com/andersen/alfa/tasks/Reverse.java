@@ -1,4 +1,4 @@
-// Reverse the line
+// 1.1 перевернуть строку
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;

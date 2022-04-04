@@ -1,4 +1,4 @@
-//write a method that determines if a string is a palindrome
+//1.6 написать метод который определяет является ли строка палиндромом
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;

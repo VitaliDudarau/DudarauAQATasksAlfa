@@ -1,4 +1,4 @@
-
+// 1.2 заменить символ в строке
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;

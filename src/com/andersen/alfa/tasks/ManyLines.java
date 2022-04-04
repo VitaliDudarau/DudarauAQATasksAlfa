@@ -1,4 +1,4 @@
-
+// 1.5 вывести строку указанное число раз с разделителем
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;

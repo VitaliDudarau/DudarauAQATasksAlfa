@@ -1,3 +1,4 @@
+// 1.3 удалить определенный символ в строке
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;

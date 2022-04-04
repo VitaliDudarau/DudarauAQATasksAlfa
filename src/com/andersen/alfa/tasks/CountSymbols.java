@@ -1,3 +1,4 @@
+// 1.4 подсчитать сколько раз символ встречается в строке, учитывая различные раскладки
 package com.andersen.alfa.tasks;
 
 import java.util.Scanner;
